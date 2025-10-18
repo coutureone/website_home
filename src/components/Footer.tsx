@@ -13,7 +13,11 @@ export default function Footer() {
 		],
 		resources: [
 			{ name: 'GitHub', href: 'https://github.com/coutures', external: true },
-			{ name: '博客 RSS', href: 'https://blog.coutures.top/rss.xml', external: true }
+			{
+				name: '博客 RSS',
+				href: 'https://blog.coutures.top/rss.xml',
+				external: true
+			}
 		]
 	};
 
@@ -102,4 +106,3 @@ export default function Footer() {
 		</footer>
 	);
 }
-

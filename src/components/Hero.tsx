@@ -76,14 +76,20 @@ export default function Hero() {
 								key={link.name}
 								href={link.href}
 								target={link.href.startsWith('http') ? '_blank' : undefined}
-								rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+								rel={
+									link.href.startsWith('http')
+										? 'noopener noreferrer'
+										: undefined
+								}
 								className="group flex flex-col items-center justify-center p-6 rounded-2xl bg-secondary/50 hover:bg-secondary transition-all duration-300 hover:scale-105 hover:shadow-lg"
 							>
 								<div className="mb-3 text-primary group-hover:scale-110 transition-transform">
 									{link.icon}
 								</div>
 								<h3 className="font-semibold text-lg mb-1">{link.name}</h3>
-								<p className="text-xs text-muted-foreground">{link.description}</p>
+								<p className="text-xs text-muted-foreground">
+									{link.description}
+								</p>
 							</a>
 						))}
 					</div>
@@ -92,4 +98,3 @@ export default function Hero() {
 		</section>
 	);
 }
-

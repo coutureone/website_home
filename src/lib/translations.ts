@@ -1,8 +1,8 @@
 export const translations = {
 	zh: {
 		greeting: '你好，我是',
-		subtitle: '一个热爱编程、跑步和分享的开发者',
-		welcome: '欢迎来到我的个人主页！点击下方按钮探索我的技术博客和跑步记录。',
+		subtitle: '一个网络运维工程师，什么都会点，什么都不精通',
+		welcome: '谢谢你长的这么好看能来看我~',
 		links: {
 			github: {
 				name: 'GitHub',
@@ -49,4 +49,3 @@ export const translations = {
 };
 
 export type Language = 'zh' | 'en';
-
