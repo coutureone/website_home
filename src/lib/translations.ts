@@ -24,9 +24,9 @@ export const translations = {
 	},
 	en: {
 		greeting: "Hi, I'm",
-		subtitle: 'A developer who loves coding, running and sharing',
-		welcome:
-			'Welcome to my personal homepage! Click the buttons below to explore my tech blog and running records.',
+		subtitle:
+			'A network operation and maintenance engineer who knows a little bit of everything but is not proficient in anything',
+		welcome: 'Thank you for being so beautiful and coming to see me.',
 		links: {
 			github: {
 				name: 'GitHub',
