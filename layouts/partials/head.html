@@ -1,0 +1,7 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ .Site.Params.description }}">
+<link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-screen-webfont/style.css" media="print" onload="this.media='all'">
+{{ $style := resources.Get "css/main.css" | css.PostCSS }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">

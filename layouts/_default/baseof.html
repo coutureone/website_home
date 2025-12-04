@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}" class="scroll-smooth">
+<head>
+    {{ partial "head.html" . }}
+</head>
+<body class="bg-background text-foreground antialiased">
+    {{ partial "header.html" . }}
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
+</body>
+</html>

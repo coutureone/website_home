@@ -1,0 +1,22 @@
+<header class="fixed top-0 z-50 w-full bg-background/95 backdrop-blur-sm border-b border-border/40">
+    <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex h-14 items-center justify-between">
+            <!-- Logo -->
+            <a href="/" class="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent hover:opacity-80 transition-opacity">
+                Couture
+            </a>
+
+            <!-- Language Switcher -->
+            <div class="flex items-center">
+                {{ range .Site.Home.AllTranslations }}
+                    {{ if ne .Language.Lang $.Language.Lang }}
+                    <a href="{{ .Permalink }}" class="flex items-center space-x-1 px-3 py-1.5 rounded-lg text-sm font-medium hover:bg-secondary transition-colors" aria-label="Switch to {{ .Language.LanguageName }}">
+                        <span class="text-base">{{ if eq .Language.Lang "zh" }}🇨🇳{{ else }}🇺🇸{{ end }}</span>
+                        <span>{{ if eq .Language.Lang "zh" }}中文{{ else }}EN{{ end }}</span>
+                    </a>
+                    {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </nav>
+</header>

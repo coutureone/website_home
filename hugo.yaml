@@ -1,0 +1,49 @@
+baseURL: 'https://xcouture.cc/'
+defaultContentLanguage: zh
+
+languages:
+  zh:
+    languageName: 中文
+    languageCode: zh-CN
+    weight: 1
+    title: 'Couture 的个人主页'
+    params:
+      description: '欢迎来到我的个人主页！探索我的技术博客和跑步记录'
+      author: 'Couture'
+      home:
+        greeting: "你好，我是"
+        subtitle: "牛马 / 跑步爱好者 / 终身学习者"
+        welcome: "欢迎来到我的个人主页！探索我的技术博客和跑步记录"
+        links:
+          github_title: "GitHub"
+          github_desc: "查看开源项目"
+          blog_title: "博客"
+          blog_desc: "阅读技术文章"
+          running_title: "跑步"
+          running_desc: "查看运动数据"
+          contact_title: "联系"
+          contact_desc: "发送邮件"
+  en:
+    languageName: EN
+    languageCode: en-US
+    weight: 2
+    title: "Couture's Portfolio"
+    params:
+      description: 'Welcome to my personal homepage! Explore my tech blog and running records'
+      author: 'Couture'
+      home:
+        greeting: "Hi, I'm"
+        subtitle: "Full Stack Developer / Runner / Lifelong Learner"
+        welcome: "Welcome to my personal homepage! Explore my tech blog and running records."
+        links:
+          github_title: "GitHub"
+          github_desc: "View Open Source"
+          blog_title: "Blog"
+          blog_desc: "Read Tech Blog"
+          running_title: "Running"
+          running_desc: "View Running Data"
+          contact_title: "Contact"
+          contact_desc: "Send Email"
+
+build:
+  writeStats: true
