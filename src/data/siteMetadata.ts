@@ -8,8 +8,8 @@ const siteMetadata = {
 	socialBanner: '/social-banner.png',
 	email: 'couturecome@gmail.com',
 	github: 'https://github.com/coutureone',
-	blog: 'https://blog.coutures.top',
-	running: 'https://run.coutures.top',
+	blog: 'https://blog.xcouture.cc',
+	running: 'https://run.xcouture.cc',
 	locale_region: 'CN'
 };
 export default siteMetadata;
