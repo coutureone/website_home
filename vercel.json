@@ -1,0 +1,6 @@
+{
+  "framework": "hugo",
+  "buildCommand": "hugo --gc --minify",
+  "outputDirectory": "public",
+  "installCommand": "npm install"
+}
